@@ -1,6 +1,7 @@
 
 import React, { useEffect, useState } from 'react'
 import axios from 'axios'
+import CategoryCard from './CategoryCard'
 function Home() {
     const [categories, setCategories] = useState([])
 
@@ -15,7 +16,7 @@ function Home() {
   return (
     <>
    
-    {categories.map((el)=> (<div key={el.id}>{el.title}</div>))}
+    {categories.map((category)=> (<div key={category.id}><CategoryCard category={category}/></div>))}
     </>
     
   )
