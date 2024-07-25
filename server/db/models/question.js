@@ -13,7 +13,7 @@ module.exports = (sequelize, DataTypes) => {
       this.belongsTo(models.Category, { foreignKey: 'categoryId' });
     }
   }
-  Category.init({
+  Question.init({
     question: DataTypes.STRING,
     answer: DataTypes.STRING,
     photo: DataTypes.STRING,

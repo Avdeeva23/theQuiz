@@ -7,7 +7,11 @@ module.exports = {
      await queryInterface.bulkInsert('Categories', [{
       title: 'FirstCategory'
         
-      }], {});
+      },
+      {
+         title: 'SecondCategory'
+           
+         }], {});
    
   },
 
