@@ -9,7 +9,13 @@ module.exports = {
         answer: 'John Doe',
         photo: '123photo',
         categoryId: 1
-     }], {});
+     },
+     {
+      question: 'Why2?',
+      answer: 'John Doe2',
+      photo: '123photo2',
+      categoryId: 1
+   }], {});
   },
 
   async down (queryInterface, Sequelize) {
