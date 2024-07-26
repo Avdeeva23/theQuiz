@@ -15,8 +15,9 @@ module.exports = (sequelize, DataTypes) => {
   }
   Question.init({
     question: DataTypes.STRING,
+    options: DataTypes.STRING,
     answer: DataTypes.STRING,
-    photo: DataTypes.STRING,
+    photo: DataTypes.TEXT,
     categoryId: DataTypes.INTEGER
   }, {
     sequelize,

@@ -12,11 +12,14 @@ module.exports = {
       question: {
         type: Sequelize.STRING
       },
+      options: {
+        type: Sequelize.STRING
+      },
       answer: {
         type: Sequelize.STRING
       },
       photo: {
-        type: Sequelize.STRING
+        type: Sequelize.TEXT
       },
       categoryId: {
         type: Sequelize.INTEGER,

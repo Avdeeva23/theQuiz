@@ -5,7 +5,7 @@ function Navbar() {
     <nav className="navbar navbar-expand-lg bg-body-tertiary">
       <div className="container-fluid">
         <Link className="nav-link" to="/">
-          Home
+          Главная
         </Link>
       </div>
     </nav>

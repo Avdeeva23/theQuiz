@@ -12,6 +12,9 @@ module.exports = {
       title: {
         type: Sequelize.STRING
       },
+      photo: {
+        type: Sequelize.TEXT
+      },
       createdAt: {
         defaultValue: Sequelize.fn('NOW'),
         allowNull: false,
