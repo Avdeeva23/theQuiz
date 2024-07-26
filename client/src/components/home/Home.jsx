@@ -13,7 +13,7 @@ function Home() {
   }, []);
 
   return (
-    <div style={{display: "flex", gap: "20px"}}>
+    <div style={{display: "flex", gap: "20px"}} className="mt-20">
       {categories.map((category) => (
         <div  key={category.id}>
           <CategoryCard category={category} />
