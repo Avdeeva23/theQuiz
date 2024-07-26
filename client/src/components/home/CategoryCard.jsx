@@ -7,7 +7,7 @@ function CategoryCard({ category }) {
       <div className="card-body">
         <h5 className="card-title">Заголовок: {category.title}</h5>
         <p className="card-text">Небольшой пример текста</p>
-        <a href="#" className="btn btn-primary">
+        <a href={`/${category.id}`} className="btn btn-primary">
           Перейти
         </a>
       </div>
