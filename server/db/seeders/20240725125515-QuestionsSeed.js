@@ -109,7 +109,7 @@ module.exports = {
           options: `Человек, который говорит чепуху (1) \n
 Девушка маленького роста (2) \n
 Очень громкая собака (3) \n
-Парень, который быстро бегает`,
+Парень, который быстро бегает (4)`,
           answer: "1",
           photo:
             "https://cdn.culture.ru/images/656679cd-f5d1-5c50-9b29-193fe2bab76b/c_fill,g_center/ekaterinburg-jpg.webp",
